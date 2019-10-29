@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+div#interface img#ppf {
+    position: absolute;
+    left: 250px;
+    right: 200px;
+    top: 320px;
+}
+
+div#interface img#gugu {
+    position: absolute;
+    left: 400px;
+    right: 400px;
+    top: 320px;
+}
+
+div#interface img#eu {
+    position: absolute;
+    left: 550px;
+    right: 200px;
+    top: 320px;
+}

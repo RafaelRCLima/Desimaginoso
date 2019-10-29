@@ -1,0 +1,137 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'FontePrincipal';
+    src: url("../_fonts/Mansalva-Regular.ttf");
+}
+
+@font-face {
+    font-family: 'FonteSub';
+    src: url("../_fonts/Righteous-Regular.ttf");
+}
+
+body {
+    background-color: #bbbbbb;
+    color: rgba(0,0,0,1);
+}
+
+header#cabecalho img#icone{
+    position: absolute;
+    left:1000px;
+    top:100px;
+}
+
+header#cabecalho {
+    border-bottom: 3px #606060 solid;
+    height: 150px;
+    background: url("../_imagens/caricatura.jpg") no-repeat;
+    padding: 30px;
+}
+
+div#interface {
+    width: 1000px;
+    background-color: white;
+    margin: -32px auto 0px auto;
+    box-shadow: 0px 0px 10px rgba(0,0,0, .5);
+    padding: 30px;
+}
+
+p {
+    font-family: 'FonteSub', sans-serif;
+    text-align: justify;
+    text-indent: 50px;
+}
+
+header#cabecalho h1 {
+    font-family: 'FontePrincipal', sans-serif;
+    font-size: 30pt;
+    color: rgb(139, 139, 255);
+    text-shadow: 3px 3px 3px black;
+    padding: 0px;
+    margin-bottom: 0px;
+}
+
+header#cabecalho h2 {
+    font-family: 'FonteSub', sans-serif;
+    font-size: 20pt;
+    color: black;
+    text-shadow: 3px 3px 3px grey;
+    padding: 0px;
+    margin-top: 10px;
+}
+
+h3 {
+    font-family: 'FonteSub', sans-serif;
+    font-size: 20pt;
+    color: black;
+    text-shadow: 3px 3px 3px grey;
+    padding: 0px;
+    margin-top: 10px;
+}
+
+nav#menu {
+    display: block;
+}
+
+nav#menu ul{
+    list-style: none;
+    text-transform: uppercase;
+    position: absolute;
+    top: -20px;
+    left: 750px;
+}
+nav#menu li:hover {
+    background-color: #606060;
+}
+
+nav#menu li{
+    font-family: 'FonteSub', sans-serif;
+    display: inline-block;
+    background-color: #bbbbbb;
+    padding: 10px;
+    margin: 2px;
+    transition: background-color 1s;
+}
+
+nav#menu h1{
+    display: none;
+}
+
+nav#menu a{
+    color: black;
+    text-decoration: none;
+}
+
+nav#menu a:hover{
+    color: white;
+}
+
+section#corpo {
+    display:  block;
+    width: 600px;
+    float: left;
+    border-right: 1px solid grey;
+    padding-right: 10px;
+}
+
+table#tabela td{
+    border: 1px solid grey;
+    padding: 5px;
+}
+
+aside#lateral {
+    display: block;
+    width: 350px;
+    float: right;
+    padding: 5px;
+    align-content: center;
+}
+
+footer#rodape {
+    clear: both;
+    border-top: 1px solid grey;
+    padding-top: 10px;
+}
+
+footer#rodape p{
+    text-align: center;
+}

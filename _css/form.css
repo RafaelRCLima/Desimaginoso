@@ -1,0 +1,44 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'FontePrincipal';
+    src: url("../_fonts/Mansalva-Regular.ttf");
+}
+
+@font-face {
+    font-family: 'FonteSub';
+    src: url("../_fonts/Righteous-Regular.ttf");
+}
+
+form legend{
+    font-family: 'FonteSub', sans-serif;
+}
+
+form {
+    width: 700px;
+    margin: auto;
+}
+
+input, textarea {
+    font-family: Arial, sans-serif;
+    font-weight: normal;
+    font-size: 13pt;
+    background-color: rgba(255, 255, 255, .8);
+}
+
+input:hover, textarea:hover {
+    background-color: rgba(0,0,0,.1);
+}
+
+textarea {
+    align-content: center;
+}
+
+legend {
+    font-size: 13pt;
+}
+
+fieldset {
+    border-color: #cecece;
+    margin: 20px;
+    background: url("../_imagens/gugu03.jpg") no-repeat 100% 95%;
+}

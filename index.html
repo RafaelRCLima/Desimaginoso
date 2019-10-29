@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Seja um Desimaginoso</title>
+    <link rel="stylesheet" href="_css/estilo.css" />
+    <link rel="stylesheet" href="_css/episodios.css" />
+    <script language="javascript" src="_javascript/funcoes.js"></script>
+</head>
+
+<body>
+    <div id="interface">
+        <header id="cabecalho">
+            <hgroup>
+                <h1>Bem vindo ao Desimaginoso</h1>
+                <img id="icone" src="_imagens/podcastIMG02.png" width="150">
+                <h2>O podcast sem imaginação mais criativo desse planeta!</h2>
+            </hgroup>
+
+            <nav id="menu">
+                <h1>Menu Principal</h1>
+                <ul type="disc">
+                    <li><a href="index.html">Home</a></li>
+                    <li onmouseover="mudaFoto('_imagens/people.png')"
+                        onmouseout="mudaFoto('_imagens/podcastIMG02.png')"><a href="index.html"><a
+                                href="integrantes.html">Integrantes</a></li>
+                    <li onmouseover="mudaFoto('_imagens/camera.png')"
+                        onmouseout="mudaFoto('_imagens/podcastIMG02.png')"><a href="fotos.html">Fotos</a></li>
+                    <li onmouseover="mudaFoto('_imagens/contato.png')"
+                        onmouseout="mudaFoto('_imagens/podcastIMG02.png')"><a href="contato.html">Contato</a></li>
+                </ul>
+            </nav>
+        </header>
+        <section id="corpo">
+            <h3>Quem somos</h3>
+            <p><span style="font-weight: bold;">Alberto Filho, Gustavo Freitas e Rafael Lima</span>. Surgimos da ideia
+                de mostrar que podemos expor nossas
+                opiniões tratando de assuntos interessantes para todos e também, quem sabe, trazer conhecimentos que
+                você ainda nunca tinha ouvido falar.</p>
+            <p>Chega junto com a gente então, porque a cada semana tem um novo episódio sobre um assunto diferente
+                dentro da cultura pop, economia, games e vários outros assuntos sociais</p>
+
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/yjycP1xnfjo" frameborder="0"
+                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+            </iframe>
+
+        </section>
+
+
+
+        <aside id="lateral">
+            <h3>Espisódios</h3>
+            <iframe src="episodios.html" name="janela" id="frame-spec" scrolling="no"></iframe>
+            <a href="episodios.html#ep1" target="janela"><img src="_imagens/01.jpg" width="50" /></a>
+            <a href="episodios.html#ep2" target="janela"><img src="_imagens/02.jpg" width="50" /></a>
+        </aside>
+
+        <footer id="rodape">
+            <p>Copyright 2019 - By Rafael Lima</p>
+            <p>Facebook | Twitter | <a href="http://instagram.com/desimaginoso" target="_blank">Instagram</a> | YouTube
+            </p>
+        </footer>
+
+
+    </div>
+</body>
